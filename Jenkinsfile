@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git url: 'https://github.com/Kanishkharamesh/Jenkins.git', branch: 'main'
+                git url: 'https://github.com/Hariharan-3104/spring-framework.git', branch: 'main'
             }
         }
 
